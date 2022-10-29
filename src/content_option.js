@@ -2,7 +2,7 @@ const logotext = "Akash Lilhare";
 const meta = {
   title: "Akash Lilhare",
   description:
-    "I’m Akash Lilhare Flutter Developer, currently working in India",
+    "I’m Akash Lilhare Flutter Developer, currently working in India.",
 };
 
 const introdata = {
@@ -13,11 +13,11 @@ const introdata = {
     third: "I develop cool mobile Apps",
   },
   description: `
-    I am progressive minded and in tune with new developments in my field.
-    I enjoy collective brainstorming sessions which allow me to coordinate activities to achieve a common goal.
+  I'm a India based Mobile App developer focused on crafting clean & user-friendly experiences.
+  I always try to design stuff with my unique point of view. I also love to create things that can be useful to others.
   `,
   your_img_url:
-    "https://scontent.frpr1-1.fna.fbcdn.net/v/t1.18169-9/26908030_161449951153087_5788582153468324546_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=coO19tWPW7kAX-LFkNw&_nc_ht=scontent.frpr1-1.fna&oh=00_AfDNlLmltBK5nbgbH6eSVn5pyn7QUA_rW0yrDcitRXFNZg&oe=6381BD28",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.globalsign.com%2Fen%2Fblog%2Fthere-really-such-thing-ethical-hacking&psig=AOvVaw1tX8AaZc0vVNVYVH2HQ5NX&ust=1667154728850000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD1j76JhvsCFQAAAAAdAAAAABAE",
 };
 
 const dataabout = {
@@ -27,41 +27,60 @@ const dataabout = {
 };
 const worktimeline = [
   {
-    jobtitle: "ReactJs Intern",
-    where: "MobileFirst Applications",
-    date: "Sep - Present",
+    jobtitle: "Flutter Developer",
+    where: "OMG Group",
+    date: "Jul 2022 - Present",
   },
   {
-    jobtitle: "Full Stack Web Developer",
-    where: "River House Technology",
-    date: "July - Oct 2021",
+    jobtitle: "Software Developer",
+    where: "CashRich",
+    date: "June 2022 - Aug 2022",
+  },
+  {
+    jobtitle: "Flutter developer",
+    where: "KhatePay",
+    date: "Mar 2022 - Jul 2022",
+  },
+  {
+    jobtitle: "Mobile developer",
+    where: "Decoralley",
+    date: "Nov 2021 - Feb 2022",
+  },
+  {
+    jobtitle: "Software Engineer Intern",
+    where: "WinkWack ",
+    date: "Apr 2021 - Jul 2021",
   },
 ];
 
 const skills = [
   {
+    name: "Flutter",
+    value: 75,
+  },
+  {
+    name: "Dart",
+    value: 70,
+  },
+  {
     name: "C++",
-    value: 80,
-  },
-  {
-    name: "HTML/CSS",
-    value: 85,
-  },
-  {
-    name: "React-Native",
-    value: 60,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
-  {
-    name: "React",
-    value: 60,
+    value: 65,
   },
 
   {
+    name: "HTML and CSS",
+    value: 65,
+  },
+  {
+    name: "Javascript",
+    value: 60,
+  },
+  {
     name: "Node and Express",
+    value: 60,
+  },
+  {
+    name: "Git and Github",
     value: 60,
   },
 ];
@@ -73,7 +92,7 @@ const services = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
   {
-    title: "Mobile Apps",
+    title: "Mobile DesiApps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },

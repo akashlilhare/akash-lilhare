@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import Badge from "react-bootstrap/Badge";
 import { dataabout, meta, worktimeline, skills } from "../../content_option";
 
 export const About = () => {
@@ -49,7 +50,7 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row>
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
