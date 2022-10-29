@@ -6,7 +6,7 @@ import { dataabout, meta, worktimeline, skills } from "../../content_option";
 
 export const About = () => {
   return (
-    <HelmetProvider>
+    <HelmetProvider classname="mt-5">
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />

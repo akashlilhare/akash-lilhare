@@ -1,16 +1,16 @@
-const logotext = "Avinash";
+const logotext = "Akash Lilhare";
 const meta = {
-  title: "Avinash Shukla",
+  title: "Akash Lilhare",
   description:
-    "I’m Avinash Shukla Developer _ Full stack devloper,currently working in India",
+    "I’m Akash Lilhare Flutter Developer, currently working in India",
 };
 
 const introdata = {
-  title: "I’m Avinash Shukla",
+  title: "I’m Akash Lilhare",
   animated: {
     first: "I love coding",
     second: "I code cool websites",
-    third: "I develop mobile apps",
+    third: "I develop cool mobile Apps",
   },
   description: `
     I am progressive minded and in tune with new developments in my field.
