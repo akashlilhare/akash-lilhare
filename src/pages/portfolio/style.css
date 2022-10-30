@@ -2,14 +2,14 @@
   column-width: 15em;
   -moz-column-width: 15em;
   -webkit-column-width: 15em;
-  column-gap: 4rem;
-  -moz-column-gap: 4rem;
-  -webkit-column-gap: 4rem;
+  column-gap: 3.5rem;
+  -moz-column-gap: 3.5rem;
+  -webkit-column-gap: 3.5rem;
 }
 
 .po_item {
   display: inline-block;
-  width: 100%;
+  width: max(100%, 370px);
   text-align: center;
   margin: 0.5rem auto;
   position: relative;
@@ -62,7 +62,8 @@
 
 .po_item:hover img {
   -webkit-filter: grayscale(0);
-  /*GoogleChrome,Safari6+&Opera15+*/filter: grayscale(0);
+  /*GoogleChrome,Safari6+&Opera15+*/
+  filter: grayscale(0);
 }
 
 .po_item:hover .content {

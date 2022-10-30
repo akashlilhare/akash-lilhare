@@ -100,33 +100,33 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/home-workout.png?raw=true",
     desctiption: "Home workout app",
     link: "https://play.google.com/store/apps/details?id=com.akashlilhare.homeworkout&hl=en_IN&gl=US",
   },
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/flash%20chat.png?raw=true",
     desctiption: "Flash Chat",
     link: "https://github.com/akashlilhare/flash_chat",
   },
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/coding_contest.png?raw=true",
     desctiption: "Coding contest",
     link: "https://play.google.com/store/apps/details?id=com.akash.coding_contest_tracker",
   },
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/4.png?raw=true",
     desctiption: "Amazon Clone",
     link: "https://github.com/akashlilhare/amazon_clone",
   },
 
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/5.png?raw=true",
     desctiption: "News app",
     link: "https://github.com/akashlilhare/news_app",
   },
   {
-    img: "",
+    img: "https://github.com/akashlilhare/akash-lilhare/blob/main/src/assets/In-news/3.png?raw=true",
     desctiption: "Whatsapp",
     link: "https://github.com/akashlilhare/whatsapp_direct",
   },
