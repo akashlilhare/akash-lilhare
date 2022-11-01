@@ -183,8 +183,8 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "avinashukla2000@gmail.com",
-  YOUR_FONE: "+91-8827040821",
+  YOUR_EMAIL: "akashlilhare14@gmail.com",
+
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_whqqvgn",
@@ -195,7 +195,7 @@ const contactConfig = {
 const socialprofils = {
   twitter: "",
   github: "https://github.com/akashlilhare",
-  linkedin: "https://linkedin.com/in/avinashukla",
+  linkedin: "https://www.linkedin.com/in/akashlilhare/",
 };
 export {
   meta,
