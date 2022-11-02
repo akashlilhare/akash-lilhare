@@ -187,9 +187,9 @@ const contactConfig = {
 
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_whqqvgn",
-  YOUR_TEMPLATE_ID: "template_g3lvh2q",
-  YOUR_USER_ID: "_N_YVow0XZ97Jlxps",
+  YOUR_SERVICE_ID: "service_aur0xof",
+  YOUR_TEMPLATE_ID: "template_c8h2g69",
+  YOUR_USER_ID: "YB2FURjfQvXII4sAJ",
 };
 
 const socialprofils = {
