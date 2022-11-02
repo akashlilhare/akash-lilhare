@@ -184,7 +184,8 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "akashlilhare14@gmail.com",
-
+  YOUR_FONE: "+919669395879",
+  LinkedIN: "akashlilhare",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_aur0xof",

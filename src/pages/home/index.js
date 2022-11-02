@@ -210,11 +210,6 @@ export const Home = () => {
         </section>
         <>
           <Container id="About" classname="mt-5" className="About-header">
-            <Helmet>
-              <meta charSet="utf-8" />
-              <title> About | {meta.title}</title>
-              <meta name="description" content={meta.description} />
-            </Helmet>
             <Row className="mb-5 mt-3">
               <Col lg="8">
                 <h1 className="display-4 mb-4">About me</h1>
@@ -278,11 +273,6 @@ export const Home = () => {
           </Container>
         </>
         <Container id="project" className="About-header">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title> Projects | {meta.title} </title>{" "}
-            <meta name="description" content={meta.description} />
-          </Helmet>
           <Row className="mb-5 mt-3">
             <Col lg="8">
               <h1 className="display-4 mb-4"> Projects </h1>{" "}
@@ -310,12 +300,7 @@ export const Home = () => {
           </div>
         </Container>
         <HelmetProvider>
-          <Container id="Contact">
-            <Helmet>
-              <meta charSet="utf-8" />
-              <title>Contact | {meta.title}</title>
-              <meta name="description" content={meta.description} />
-            </Helmet>
+          <Container id="Contact" className="mb-5">
             <Row className="mb-5 mt-3">
               <Col lg="8">
                 <h1 className="display-4 mb-4">Contact Me</h1>
@@ -339,15 +324,29 @@ export const Home = () => {
               <Col lg="5" className="mb-5">
                 <h3 className="color_sec py-4">Get in touch</h3>
                 <address>
-                  <strong>Email:</strong>{" "}
-                  <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                    {contactConfig.YOUR_EMAIL}
-                  </a>
-                  <br />
-                  <br />
+                  <p>
+                    <strong>Email:</strong>{" "}
+                    <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+                      {contactConfig.YOUR_EMAIL}
+                    </a>
+                  </p>
                   {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                     <p>
                       <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                    </p>
+                  ) : (
+                    ""
+                  )}
+                  {contactConfig.hasOwnProperty("LinkedIN") ? (
+                    <p>
+                      <strong>LinkedIn: </strong>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/in/akashlilhare/"
+                      >
+                        {contactConfig.LinkedIN}
+                      </a>
                     </p>
                   ) : (
                     ""
